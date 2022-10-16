@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  .display {
+    .display__title {
+      font-size: 40px;
+      display: flex;
+      justify-content: center;
+    }
+    .display__number {
+      display: flex;
+      justify-content: center;
+    }
+    .display__result {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+.number-pad * {
+  margin: 5px;
+  padding: 5px 10px;
+}
+.number-pad {
+  margin-right: 100px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+iframe {
+  display: none;
+}
